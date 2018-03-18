@@ -1,0 +1,22 @@
+{
+  "name": "noderestserver",
+  "version": "1.0.0",
+  "description": "Simple REST Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaowais/noderestserver.git"
+  },
+  "author": "Mohammad Hamza Owais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzaowais/noderestserver/issues"
+  },
+  "homepage": "https://github.com/hamzaowais/noderestserver#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

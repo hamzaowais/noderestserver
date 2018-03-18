@@ -5,7 +5,7 @@ var app = express();
 
 
 /*
-	We need to create a 
+	This is a demo project which will do the the following:
 		1.Demonstation of Basic REST json API. 
 		2.Demonstration of asyntounous process and Callback.
 */
@@ -108,9 +108,6 @@ app.get('/getWithCallback', function (req, res) {
 		});
 		
 });
-
-
-
 
 
 

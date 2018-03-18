@@ -60,11 +60,11 @@ app.get('/cederPointJSON', function (req, res) {
 */
 
 function process1(){
-	 setTimeout(function(){ console.log("Procass 1 is complete"); }, 2000);
+	 setTimeout(function(){ console.log("process 1 is complete"); }, 2000);
 }
 
 function process2(){
-	 setTimeout(function(){ console.log("Procass 2 is complete"); }, 1000);
+	 setTimeout(function(){ console.log("process 2 is complete"); }, 1000);
 }
 
 
@@ -87,7 +87,7 @@ app.get('/getWithoutCallback', function (req, res) {
 function process1Callback(output, callback){
 	 setTimeout(function(){ 
 	 	output["process1"]="Complete";
-	 	console.log("Procass 1 is complete"); 
+	 	console.log("process 1 is complete"); 
 	 	return process2Callback(output, callback);
 	}, 2000);
 }
@@ -95,7 +95,7 @@ function process1Callback(output, callback){
 function process2Callback(output, callback){
 	 setTimeout(function(){ 
 	 	output["process2"]="Complete";
-	 	console.log("Procass 2 is complete"); 
+	 	console.log("process 2 is complete"); 
 	 	return callback(output);
 	}, 2000);
 }
